@@ -1,0 +1,175 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    
+}
+
+header{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color:#129799;
+    height:30vw ;
+    width:100% ;
+   
+}
+
+ul{
+    margin-left: 28vw;
+    list-style: none;
+    
+}
+li{
+    display: inline-block;
+    width: 20vw;
+    height: 1vw;
+    
+}
+a{
+    text-decoration:none;
+    color:white;
+    margin:50px;
+    font-size: 20px;
+  
+    
+}
+a:hover{
+    font-weight: bold;
+   
+}
+.container_header{
+    display:flex;
+    align-items:center;
+    margin-left: 15vw;
+    
+}
+img{
+    
+    width: 640px;
+    height:320px;
+    
+}
+h1{
+    
+    width: max-content;
+    font-size: 8.3vh;
+    color:white;
+}
+.list2{
+    margin-left: 26vw;
+    list-style: none;
+    
+}
+        /*main*/
+main{
+    background-color: #FFA185;
+    
+}
+.img_main{
+    display: flex;
+    flex-wrap: wrap;
+    width:85vw;
+   
+    margin-left: 10vw;
+    padding-top: 8vh;
+    
+}
+.img_main2{
+    width: 35vw;
+    margin:1vw;
+    
+}
+h2{
+    color:white;
+    font-size: 5vh;
+    margin-left: 2vw;
+    
+    width: max-content;
+}
+.texto_main{
+    padding-top: 5vw;
+    display: flex;
+    flex-direction: column;
+    width: 90vw;
+}
+.p_main{
+    margin-left: 2vw;
+    margin-top: 4vw;
+    width: 60vw;
+    font-size: 3.5vh;
+    
+}
+.vm{
+    padding-top:4vw ;
+    padding-bottom:4vw ;
+    width: max-content;
+    margin-left: 44vw;
+    font-size: 30px;
+    font-weight: bold;
+    cursor: pointer;
+    
+}
+             /*Footer*/
+
+footer{
+    background-color: #129799;
+}
+.container_footer{
+    display: flex;
+   
+    align-items: center;
+    
+}
+.rede_social{
+    display: flex;
+    padding: 10vh;
+    padding-left: 20vh;
+    padding-top: 12vh;
+  
+
+}
+.Fotos_redeSocial{
+    width: 40px;
+    height: 40px;
+    margin-left: 2vh;
+}
+
+.lista3{
+    position: absolute;
+    width: max-content;
+    margin-left: 40vw;
+}
+.lifooter{
+    width: 10vw;
+}
+.afooter{
+    font-size: 20px;
+    
+}
+@media  (max-width: 1300px) {
+    .container_header{
+        margin-left: 2vw;
+    }
+    h1{
+        font-size: 7vh;
+    }
+    .list2{
+        margin-left: 20vw;
+    }
+    .p_main{
+        font-size:2.4vh;
+    }
+    .lista3{
+        position: absolute;
+        width: max-content;
+        margin-left: 20vw;
+    }
+    .vm{
+        padding-top:4vw ;
+        padding-bottom:4vw ;
+        margin-left: 42vw;
+        font-size: 30px;
+        font-weight: bold;
+    }
+}
